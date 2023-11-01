@@ -1,11 +1,13 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import logo from "./images/logo.png";
 import mark from "./images/mark.svg";
 import "./style/App.css";
+import { escape } from "querystring";
 
 function App() {
   const [searchInput, setSearchInput] = useState("");
   const [results, setResults] = useState([]);
+  const [error, setError] = useState(false);
 
   const handleSearch = async (e) => {
     e.preventDefault();
@@ -19,13 +21,22 @@ function App() {
         throw new Error("Network response was not ok");
       }
       const data = await response.json();
+      if (data.items.length === 0) {
+        setError(true);
+      } else {
+        setError(false);
+      }
+
       setResults(data.items);
     } catch (error) {
       console.error("There was a problem with the fetch operation:", error);
     }
   };
 
-  console.log(results);
+  useEffect(() => {
+      setError(false);
+  }, [searchInput])
+
 
   return (
     <div className="app">
@@ -54,7 +65,7 @@ function App() {
       </form>
       {results.length !== 0 && (
         <div className="app__results results">
-          <table class="table results__table">
+          <table className="table results__table">
             <thead className="results__head">
               <tr className="results__row">
                 <th scope="col" className="results__column">
@@ -86,6 +97,7 @@ function App() {
           </table>
         </div>
       )}
+      {error && <div className="app__error">Can't find any repositories</div>}
     </div>
   );
 }

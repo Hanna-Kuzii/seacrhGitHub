@@ -20,6 +20,10 @@
 .app__button {
   width: 20%;
 }
+.app__error {
+  font-size: 1.5em;
+  font-weight: 500;
+}
 
 .results__item :nth-child(3) {
   text-align: left;
