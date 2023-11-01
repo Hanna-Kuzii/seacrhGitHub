@@ -1,0 +1,29 @@
+.app {
+  text-align: center;
+}
+.app__github > * {
+  height: 10vh;
+}
+.app__form {
+  margin: 2vh auto;
+  width: 60vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.app__form_group {
+  width: 70%;
+}
+.app__form_group .app__input {
+  width: 100%;
+}
+.app__button {
+  width: 20%;
+}
+
+.results__item :nth-child(3) {
+  text-align: left;
+}
+.results__name {
+  font-size: 1.1em;
+}/*# sourceMappingURL=App.css.map */
