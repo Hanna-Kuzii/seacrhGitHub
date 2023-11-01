@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/searchGitHub/static/css/main.4bed42bc.css",
-    "main.js": "/searchGitHub/static/js/main.9b5bfa2c.js",
-    "static/js/787.8477bb02.chunk.js": "/searchGitHub/static/js/787.8477bb02.chunk.js",
-    "static/media/logo.png": "/searchGitHub/static/media/logo.746ec8f0bc97208f903e.png",
-    "static/media/mark.svg": "/searchGitHub/static/media/mark.6fa18895f6e6c7772cab7049f7e05f59.svg",
-    "index.html": "/searchGitHub/index.html",
-    "main.4bed42bc.css.map": "/searchGitHub/static/css/main.4bed42bc.css.map",
-    "main.9b5bfa2c.js.map": "/searchGitHub/static/js/main.9b5bfa2c.js.map",
-    "787.8477bb02.chunk.js.map": "/searchGitHub/static/js/787.8477bb02.chunk.js.map"
+    "main.css": "/search-in-github/static/css/main.4bed42bc.css",
+    "main.js": "/search-in-github/static/js/main.f7de3e98.js",
+    "static/js/787.8477bb02.chunk.js": "/search-in-github/static/js/787.8477bb02.chunk.js",
+    "static/media/logo.png": "/search-in-github/static/media/logo.746ec8f0bc97208f903e.png",
+    "static/media/mark.svg": "/search-in-github/static/media/mark.6fa18895f6e6c7772cab7049f7e05f59.svg",
+    "index.html": "/search-in-github/index.html",
+    "main.4bed42bc.css.map": "/search-in-github/static/css/main.4bed42bc.css.map",
+    "main.f7de3e98.js.map": "/search-in-github/static/js/main.f7de3e98.js.map",
+    "787.8477bb02.chunk.js.map": "/search-in-github/static/js/787.8477bb02.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4bed42bc.css",
-    "static/js/main.9b5bfa2c.js"
+    "static/js/main.f7de3e98.js"
   ]
 }
