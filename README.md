@@ -10,14 +10,14 @@ Click on a repository to view this repository.
 Installation
 
 ## Clone this repository to your local machine:
- git clone https://github.com/Hanna-Kuzii/search-in-github.git
+ ### `git clone https://github.com/Hanna-Kuzii/search-in-github.git`
 ## Change into the project directory:
- cd search-in-github
+ ### `cd search-in-github`
 ## Install the required packages using npm or yarn:
- npm install  or yarn install
+ ### `npm install  or yarn install`
 ## Usage
   Run the application
-   npm start or yarn start
+   ### `npm start or yarn start`
  
 Follow the on-screen instructions to search for GitHub repositories. You can enter keywords for the name and description fields.
 
