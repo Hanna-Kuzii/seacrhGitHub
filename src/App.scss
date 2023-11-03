@@ -1,0 +1,18 @@
+@import './components/FormSearch/FormSearch.scss';
+@import './components/DisplayResults/DispalyResults.scss';
+
+.app {
+  text-align: center;
+  &__github {
+    // height: 20vh;
+    & > * {
+      height: 10vh;
+    }
+  }
+
+  &__error {
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+}
+
