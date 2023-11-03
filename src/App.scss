@@ -1,3 +1,6 @@
+@import './components/FormSearch/FormSearch.scss';
+@import './components/DisplayResults/DispalyResults.scss';
+
 .app {
   text-align: center;
   &__github {
@@ -6,26 +9,6 @@
       height: 10vh;
     }
   }
-  &__form {
-    margin: 2vh auto;
-    width: 60vw;
-    justify-content: space-between;
-
-    &_group {
-      width: 70%;
-
-      & .app__input {
-        width: 100%;
-      }
-    }
-  }
-  &__input {
-    // width: 70%;
-  }
-
-  &__button {
-    width: 20%;
-  }
 
   &__error {
     font-size: 1.5em;
@@ -33,17 +16,3 @@
   }
 }
 
-.results {
-  &__column {
-    // text-align: left;
-  }
-
-  &__item {
-    & :nth-child(3) {
-      text-align: left;
-    }
-  }
-  &__name {
-    font-size: 1.1em;
-  }
-}

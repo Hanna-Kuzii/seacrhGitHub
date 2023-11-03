@@ -1,0 +1,14 @@
+.results {
+  &__column {
+    // text-align: left;
+  }
+
+  &__item {
+    & :nth-child(3) {
+      text-align: left;
+    }
+  }
+  &__name {
+    font-size: 1.1em;
+  }
+}

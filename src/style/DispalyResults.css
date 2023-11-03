@@ -1,0 +1,6 @@
+.results__item :nth-child(3) {
+  text-align: left;
+}
+.results__name {
+  font-size: 1.1em;
+}/*# sourceMappingURL=DispalyResults.css.map */

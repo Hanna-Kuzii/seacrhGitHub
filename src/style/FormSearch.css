@@ -1,0 +1,16 @@
+.form {
+  margin: 2vh auto;
+  width: 60vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.form__group {
+  width: 70%;
+}
+.form__group .form__input {
+  width: 100%;
+}
+.form__button {
+  width: 20%;
+}/*# sourceMappingURL=FormSearch.css.map */

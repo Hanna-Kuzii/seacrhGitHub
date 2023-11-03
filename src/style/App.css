@@ -1,28 +1,18 @@
-.app {
-  text-align: center;
-}
-.app__github > * {
-  height: 10vh;
-}
-.app__form {
+.form {
   margin: 2vh auto;
   width: 60vw;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.app__form_group {
+.form__group {
   width: 70%;
 }
-.app__form_group .app__input {
+.form__group .form__input {
   width: 100%;
 }
-.app__button {
+.form__button {
   width: 20%;
-}
-.app__error {
-  font-size: 1.5em;
-  font-weight: 500;
 }
 
 .results__item :nth-child(3) {
@@ -30,4 +20,15 @@
 }
 .results__name {
   font-size: 1.1em;
+}
+
+.app {
+  text-align: center;
+}
+.app__github > * {
+  height: 10vh;
+}
+.app__error {
+  font-size: 1.5em;
+  font-weight: 500;
 }/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,17 @@
+.form {
+  margin: 2vh auto;
+  width: 60vw;
+  justify-content: space-between;
+
+  &__group {
+    width: 70%;
+
+    & .form__input {
+      width: 100%;
+    }
+  }
+
+  &__button {
+    width: 20%;
+  }
+}
